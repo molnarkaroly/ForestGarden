@@ -6,11 +6,11 @@ body{
 h2{
     position: relative;
     top: -75px;
-    left: -30px;
+    left: -20px;
     color: rgb(28, 36, 53);
-    padding: 15px 35px;
+    padding: 15px 20px;
     background-color: white;
-    width:300px;
+    width:340px;
     height: 80px;
     border-radius: 30px;
     margin-bottom: -75px;
@@ -26,8 +26,7 @@ p{
 }
 
 .nav_c{
-    background-color: rgb(106, 223, 125);
-    
+    background-color: rgba(106, 223, 126, 0.623);
 }
 
 
@@ -63,12 +62,7 @@ article {
     transition: color 0.3s ease-out;
   }
   
-  figure {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-  }
+ 
   
   article img {
     max-width: 100%;
@@ -78,31 +72,18 @@ article {
   }
   
   .article-body {
-    padding: 24px;
+    padding: 1em;
+
   }
   
-  article a {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    color: #28666e;
-  }
+
   
   article a:focus {
     outline: 1px dotted #28666e;
   }
   
-  article a .icon {
-    min-width: 24px;
-    width: 24px;
-    height: 24px;
-    margin-left: 5px;
-    transform: translateX(var(--link-icon-translate));
-    opacity: var(--link-icon-opacity);
-    transition: all 0.3s;
-  }
+
   
-  /* using the has() relational pseudo selector to update our custom properties */
   article:has(:hover, :focus) {
     --img-scale: 1.1;
     --title-color: #28666e;
@@ -111,10 +92,7 @@ article {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
   
-  
-  /************************ 
-  Generic layout (demo looks)
-  **************************/
+
   
   *,
   *::before,
@@ -134,40 +112,16 @@ article {
   
   .articles {
     display: grid;
-    max-width: 1200px;
+    max-width: 1600px;
     margin-inline: auto;
-    padding-inline: 24px;
+    padding-inline: 2   px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
   }
   
-  @media screen and (max-width: 960px) {
-
-    .article-body p {
-      display: none;
-    }
-  }
   
-  @container card (min-width: 380px) {
-    .article-wrapper {
-      display: grid;
-      grid-template-columns: 100px 1fr;
-      gap: 16px;
-    }
-    .article-body {
-      padding-left: 0;
-    }
-    figure {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    figure img {
-      height: 100%;
-      aspect-ratio: 1;
-      object-fit: cover;
-    }
-  }
+  
+  
   
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0); 
@@ -178,3 +132,7 @@ article {
     white-space: nowrap; 
     width: 1px;
   }
+
+.cardsk{
+    padding-top: 2em;
+}
