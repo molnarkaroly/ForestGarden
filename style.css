@@ -53,8 +53,8 @@ article {
     position: relative;
     border-radius: 16px;
     box-shadow: none;
-    background: #fff;
     transform-origin: center;
+    background-color: #CCC;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
   }
@@ -204,9 +204,7 @@ article {
 
 /* ========================== footer =======================================*/
 
-/*==================== 
-	Footer 
-====================== */
+
 
 /* Main Footer */
 footer .main-footer{	padding: 20px 0;	background: #252525;}
@@ -385,3 +383,23 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+
+/* ========================== Rólunk =======================================*/
+
+
+
+
+.abusp {
+  max-width: 700px;
+  min-height: 200px;
+  padding: 5%;
+  color: whitesmoke;
+  font-weight: 100;
+  margin: 0 auto;
+
+}
+
+
+
+
