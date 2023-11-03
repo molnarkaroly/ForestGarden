@@ -1,13 +1,16 @@
 body{
     background-image: url(./képek/bg.jpg);
     margin: 0;
-    padding-top: 5px;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
     background-image: linear-gradient(45deg, #7c9885, #b5b682);
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+.pad5{
+  padding-top: 5px;
 }
 
 .titles{
