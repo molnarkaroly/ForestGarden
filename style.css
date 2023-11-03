@@ -90,6 +90,11 @@ article {
     padding: 1em;
 
   }
+
+  .article-body h2{
+    font-size: 27px;
+    text-align: center;
+  }
   
 
   
