@@ -275,7 +275,6 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 
 ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
-ul.social-footer2 li a:hover {background-color:#1eff1e;}
 ul.social-footer2 li a {display: block;	height:10px;width: 30px; text-align: center;}
 .btn1{background-color: #1eff1e; color:#000000;}
 .btn1:hover, .btn1:focus, .btn1.active {background: #4b92dc;color: #fff;
