@@ -497,7 +497,7 @@ fieldset {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 
 /* Track */
@@ -507,7 +507,7 @@ fieldset {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1ef123;
+  background: #d1ffd1;
 }
 
 /* Handle on hover */
