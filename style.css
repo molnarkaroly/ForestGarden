@@ -277,8 +277,8 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#1eff1e;}
 ul.social-footer2 li a {display: block;	height:10px;width: 30px; text-align: center;}
-.btn{background-color: #1eff1e; color:#000000;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+.btn1{background-color: #1eff1e; color:#000000;}
+.btn1:hover, .btn1:focus, .btn1.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -485,4 +485,10 @@ fieldset {
 .sponsors{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.popup-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
