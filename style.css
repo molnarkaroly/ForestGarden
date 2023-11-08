@@ -495,3 +495,27 @@ fieldset {
 .catalog img{
   min-height: 178px;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d1ffd1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
